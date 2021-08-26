@@ -4,9 +4,7 @@ class Navbar extends Component{
     render(){
         return(
             <React.Fragment>
-                <div>
-                    leeaves
-                </div>
+                <span className="navbar-logo fas fa-leaf"></span>
                 <div>
                     Habit 
                 </div>

@@ -1,9 +1,15 @@
 import React from 'react'
 import './app.css';
+import Navbar from './components/navbar';
+
 
 function App() {
   return (
-    <h1> HI </h1>
+    <React.Fragment>
+      <Navbar/>
+      <h1> HI </h1>
+    </React.Fragment>
+  
   );
 }
 
